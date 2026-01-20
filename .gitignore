@@ -1,0 +1,40 @@
+# --- Python & Django Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment (PENTING) ---
+# Sesuai folder kamu 'env'
+env/
+venv/
+.venv/
+
+# --- Database ---
+# Jangan pernah upload database lokal ke GitHub
+*.sqlite3
+db.sqlite3
+
+# --- Environment Variables & Secrets ---
+# File ini biasanya berisi password/key rahasia
+.env
+.env.local
+
+# --- Static & Media Files ---
+# Folder tempat hasil 'collectstatic' (bukan folder source)
+staticfiles/
+# Folder upload user (biasanya kita tidak mau upload file test user ke git)
+media/
+
+# --- IDE / Text Editor ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# --- OS Metadata ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Mac
+.DS_Store
